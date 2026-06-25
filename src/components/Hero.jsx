@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="space-y-16">
           <div>
             <p className="text-black/70 dark:text-white/70 font-serif text-xl md:text-2xl -mb-3 ps-2">Hi everyone,</p>
-            <h1 className="text-8xl lg:text-9xl font-cursive select-none">
+            <h1 className="text-6xl sm:text-8xl lg:text-9xl font-cursive select-none">
               <span className="font-cinzel tracking-wider">I'm</span>
               <span className="font-kaushan text-green-800">V</span>eeranjini..</h1>
           </div>

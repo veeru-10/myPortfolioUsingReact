@@ -19,7 +19,7 @@ const DarkMode = () => {
   }, [darkMode]);
   return (
     <>
-      <div className="group flex flex-row justify-between items-center mt-20">
+      <div className="group flex flex-col gap-y-3 sm:gap-0 sm:flex-row justify-between items-center mt-20">
         <button onClick={() => setDarkMode(!darkMode)} className={` w-18 h-9 ${darkMode ? 'bg-black/20' : 'bg-white/30'} shadow shadow-black dark:shadow-white/10 rounded-full cursor-pointer px-1 transition-all duration-300 `}>
           <div className={`bg-white/70 rounded-full p-1 float-start ${darkMode ? "opacity-100 transform translate-0" : "opacity-0 transform translate-x-4"} text-black transition-all duration-100`}>
             <Sun size={18} />

@@ -75,7 +75,7 @@ const Contact = () => {
                     <Mail className="text-blue-800" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-800 dark:text-white/70">Email</p>
+                    <p className="text-xs sm:text-sm text-gray-800 dark:text-white/70">Email</p>
                     <p className="font-medium">
                       veeranjinivemala@gmail.com
                     </p>
