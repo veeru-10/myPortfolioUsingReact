@@ -11,7 +11,7 @@ const Projects = () => {
         </div>
         <section className="relative z-10 ">
           <div className="mb-10 space-y-10">
-            <p className="glass-3 rounded-xl p-4 text-black/50 dark:text-white/50 border border-red-500/50 flex items-center justify-start gap-1"><span className="text-red-500 text-xl animate-pulse">&bull;</span>Ideas are cheap. Building them is what changes everything.</p>
+            <p className="glass-3 rounded-xl p-4 text-black/50 dark:text-white/50 border border-red-500/50 flex items-center justify-start gap-1 "><span className="text-red-500 text-xl animate-pulse">&bull;</span>Ideas are cheap. Building them is what changes everything.</p>
           </div>
           <section className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {

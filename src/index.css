@@ -36,11 +36,6 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(50px);
   }
-  .glass-3 {
-    background: rgba(152, 90, 90, 0.09);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(50px);
-  }
   .dot {
     width: 10px;
     height: 10px;
@@ -50,6 +45,12 @@
 }
 
 @layer utilities {
+  .glass-3 {
+    background: rgba(152, 90, 90, 0.09);
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(50px) !important;
+    pointer-events: none;
+  }
   @keyframes morque {
     0% {
       transform: translateX(0);
