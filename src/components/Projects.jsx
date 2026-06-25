@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <>
       <section className="relative max-w-5xl mx-4 lg:mx-auto my-40">
-        <div className="z-0 translate-y-3.5 lg:translate-y-6 ">
-          <h1 id="projects" className="text-6xl lg:text-8xl uppercase font-black tracking-tight bg-gradient-to-b from-black to-white/95 dark:bg-gradient-to-b dark:from-white dark:via-white/50 dark:to-black bg-clip-text text-transparent leading-none text-center select-none pointer-events-none">Projects</h1>
+        <div className="font-oswald ">
+          <h1 id="projects" className="text-6xl lg:text-8xl uppercase font-black tracking-tight bg-gradient-to-b from-black via-black/50 to-transparent dark:bg-gradient-to-b dark:from-white dark:via-white/30 to-transparent bg-clip-text text-transparent leading-none text-center select-none pointer-events-none mb-6">Projects</h1>
         </div>
         <section className="relative z-10 ">
           <div className="mb-10 space-y-10">
