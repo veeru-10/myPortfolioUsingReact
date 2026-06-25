@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Kaushan+Script&family=Mrs+Saint+Delafield&family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: linear-gradient(90deg,rgb(116, 116, 116), rgba(111, 111, 111, 0.564), rgb(169, 169, 169), rgb(125, 125, 125));
+  --color-foreground: oklch(13% 0.028 261.692);
+  --font-oswald : "Oswald", sans-serif;
+  --font-cursive : "Mrs Saint Delafield", cursive;
+  --font-cinzel : "Cinzel", serif;
+  --font-kaushan : "Kaushan Script", cursive;
+  --animate-fadeIn : fadeIn 1s ease-in-out;
+  --animate-fadeToLeft : fadeToLeft 2s ease-in-out;
+  --animate-fadeUp : fadeUp 1s ease-in-out;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: "Poppins", sans-serif;
+  }
+}
+@layer components {
+  .glass {
+    background: rgba(0, 0, 0, .2); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, .56);
+  }
+  .glass-2 {
+    background: rgba(225, 225, 225, .2); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(50px);
+  }
+  .glass-3 {
+    background: rgba(152, 90, 90, 0.09);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(50px);
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@layer utilities {
+  @keyframes morque {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .animate-morque {
+    animation: morque 30s linear infinite;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity : 0;
+      transform : translateY(-10px);
+    }
+    to {
+      opacity : 100;
+      transform : translateY(0px);
+    }
+  }
+  @keyframes fadeToLeft {
+    from {
+      opacity : 0;
+      transform : translateX(10px);
+    }
+    to {
+      opacity : 100;
+      transform : translateX(0px);
+    }
+  }
+  @keyframes fadeUp {
+    from {
+      opacity : 0;
+      transform : translateY(10px);
+    }
+    to {
+      opacity : 100;
+      transform : translateY(0px);
+    }
+  }
+
+}
