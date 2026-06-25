@@ -50,7 +50,7 @@ const Contact = () => {
         
         {/* Title Layer: Pushed down via translate-y and hidden behind via z-0 */}
         <div className="relative z-0 translate-y-3 lg:translate-y-5 text-center">
-          <h1 id="contact" className="text-6xl lg:text-8xl uppercase font-black tracking-tight bg-gradient-to-b from-black to-white/90 dark:bg-gradient-to-b dark:from-white dark:via-white/50 dark:to-black bg-clip-text text-transparent leading-none">
+          <h1 id="contact" className="text-5xl sm:text-6xl lg:text-8xl uppercase font-black tracking-tight bg-gradient-to-b from-black to-white/90 dark:bg-gradient-to-b dark:from-white dark:via-white/50 dark:to-black bg-clip-text text-transparent leading-none">
             contact
           </h1>
         </div>
@@ -61,8 +61,8 @@ const Contact = () => {
             {/* Left Section */}
             <div className="flex-1 space-y-8">
               <div>
-                <h1 className="text-3xl font-bold mb-3">Get In Touch</h1>
-                <p className="text-gray-700  dark:text-white/70">
+                <h1 className="text-xl sm:text-3xl font-bold mb-3">Get In Touch</h1>
+                <p className="text-gray-700 text-sm sm:text-base dark:text-white/70">
                   Feel free to contact me if you have any queries, opportunities,
                   or just want to connect.
                 </p>
@@ -71,12 +71,12 @@ const Contact = () => {
               {/* Email */}
               <div className="flex items-center justify-between gap-4 p-4 rounded-xl bg-white/15 dark:bg-black/10 border border-white/10">
                 <div className="flex items-center gap-4">
-                  <div className="bg-white/30 dark:bg-black w-10 h-10 rounded-full backdrop-blur-lg flex items-center justify-center shadow-sm shadow-gray-900">
+                  <div className="bg-white/30 dark:bg-black size-8 sm:size-10 rounded-full backdrop-blur-lg flex items-center justify-center shadow-sm shadow-gray-900">
                     <Mail className="text-blue-800" />
                   </div>
-                  <div>
-                    <p className="text-xs sm:text-sm text-gray-800 dark:text-white/70">Email</p>
-                    <p className="font-medium">
+                  <div >
+                    <p className="text-xs sm:text-base text-gray-800 dark:text-white/70">Email</p>
+                    <p className="font-medium text-xs sm:text-base">
                       veeranjinivemala@gmail.com
                     </p>
                   </div>
@@ -98,12 +98,12 @@ const Contact = () => {
               {/* Phone */}
               <div className="flex items-center justify-between gap-4 p-4 rounded-xl bg-white/15 dark:bg-black/10 border border-white/10">
                 <div className="flex items-center gap-4">
-                  <div className="bg-white/30 dark:bg-black w-10 h-10 rounded-full backdrop-blur-lg flex items-center justify-center shadow-sm shadow-gray-900">
+                  <div className="bg-white/30 dark:bg-black size-8 sm:size-10 rounded-full backdrop-blur-lg flex items-center justify-center shadow-sm shadow-gray-900">
                     <PhoneCall className="text-sky-600" />
                   </div>
                   <div>
                     <p className="text-sm text-gray-700 dark:text-white/70">Phone</p>
-                    <p className="font-medium">+91 8919086876</p>
+                    <p className="font-medium text-xs sm:text-base">+91 8919086876</p>
                   </div>
                 </div>
 
@@ -128,7 +128,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-700 dark:text-white/70">Location</p>
-                    <address className="not-italic font-medium text-sm md:text-base">
+                    <address className="not-italic font-medium text-xs sm:text-base">
                       2/7-2, Mahalakshmi Street, Balusupadu, Amaravathi, Andhra Pradesh
                     </address>
                   </div>

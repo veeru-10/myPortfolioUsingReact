@@ -7,9 +7,9 @@ const Navlinks = () => {
         navLinks.map((icon, i) => {
           const NavIconComp = icon.NavIcon;
           return (
-            <div key={i} className="hover:bg-black/10 dark:hover:bg-white/40 group px-6 py-3 lg:px-3 lg:py-4 flex items-center justify-center transition-all duration-300">
+            <div key={i} className="hover:bg-black/10 dark:hover:bg-white/40 group px-3 sm:px-6 py-3 lg:px-3 lg:py-4 flex items-center justify-center transition-all duration-300">
               <a href={`#${icon.link}`} className="flex flex-col gap-2 items-center justify-center">
-                <NavIconComp className="text-white text-2xl group-hover:text-green-800 transition-all duration-300"/>
+                <NavIconComp className="text-white text-xl sm:text-2xl group-hover:text-green-800 transition-all duration-300"/>
                 <span className="text-xs md:text-sm group-hover:text-white dark:group-hover:text-black duration-200">{icon.title}</span>
               </a>
             </div>

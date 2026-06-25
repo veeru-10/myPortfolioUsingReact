@@ -47,7 +47,7 @@ const Navbar = ({show, setShow}) => {
       <section onClick={handleShow} className={`fixed inset-0 bg-black/40  transition-opacity duration-500 ${show ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}></section>
       {/* Mobile Drawer Slide-out Menu */}
       <div 
-        className={`fixed right-0 top-0 w-[350px] min-h-screen bg-green-900 transition-transform duration-500 ease-in-out z-50 transform ${
+        className={`fixed right-0 top-0 w-[320px] min-h-screen bg-green-900 transition-transform duration-500 ease-in-out z-50 transform ${
           show ? 'translate-x-0' : 'translate-x-full'
         }`}
       >

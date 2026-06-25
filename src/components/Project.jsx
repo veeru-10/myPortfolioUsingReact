@@ -12,12 +12,12 @@ const Project = ({ info }) => {
         
         <div className="flex flex-col justify-between items-start space-y-4 my-6 mx-2 group">
           <h1 className="uppercase text-xl">{info.title}</h1>
-          <p className="dark:text-slate-300 text-sm text-justify tracking-wider text-black/70">{info.disc}</p>
+          <p className="dark:text-slate-300 text-xs sm:text-sm text-justify tracking-wider text-black/70">{info.disc}</p>
           {/* technologies */}
           <div className="flex gap-x-3">
             {
               techs.map((tech, i) => (
-                <div key={i} className="w-12 h-12 p-3 bg-black dark:border  dark:border-white  rounded-full hover:transform hover:-translate-y-2 duration-300">
+                <div key={i} className="size-10 p-2 sm:size-12 sm:p-3 bg-black dark:border  dark:border-white  rounded-full hover:transform hover:-translate-y-2 duration-300">
                   <img src={`/${tech}`} alt="skill logo" className="w-full" />
                 </div>
               ))
