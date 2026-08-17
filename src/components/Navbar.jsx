@@ -36,7 +36,6 @@ const Navbar = ({show, setShow}) => {
             );
           })}
         </div>
-
         {/* menu button */}
         <div className="md:hidden flex justify-center items-center w-10 h-10 text-white rounded-full hover:bg-black/50 transition-colors duration-300 cursor-pointer" onClick={handleShow}>
           <Menu />

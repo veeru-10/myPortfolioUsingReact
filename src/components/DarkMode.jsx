@@ -17,6 +17,7 @@ const DarkMode = () => {
       localStorage.theme = 'light';
     }
   }, [darkMode]);
+  
   return (
     <>
       <div className="group flex flex-col gap-y-3 sm:gap-0 sm:flex-row justify-between items-center mt-20">

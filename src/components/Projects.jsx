@@ -13,10 +13,10 @@ const Projects = () => {
           <div className="mb-10 space-y-10">
             <p className="glass-3 rounded-xl p-4 text-black/50 dark:text-white/50 border border-red-500/50 flex items-center justify-start gap-1 text-xs sm:text-md"><span className="text-red-500 text-xl animate-pulse ">&bull;</span>Ideas are cheap. Building them is what changes everything.</p>
           </div>
-          <section className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <section className="grid grid-cols-1 lg:grid-cols-2 gap-10 auto-rows-fr">
             {
               projectInfos.map((projectInfo, i) => (
-                <div key={i}>
+                <div key={i} className="h-full">
                   <Project info={projectInfo} />
                 </div>
               ))

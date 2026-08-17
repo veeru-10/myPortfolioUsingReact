@@ -16,7 +16,7 @@ function App() {
       <section className="min-h-screen overflow-x-hidden relative dark:bg-black/70 dark:text-white transition-colors duration-200">
         <Navbar show={isMenuOpen} setShow={setIsMenuOpen}/>
         
-        <main className={`transition-all duration-500 ${
+        <main className={`transition-all duration-500 mx-4  ${
           isMenuOpen ? "blur-sm opacity-50 pointer-events-none" : "opacity-100"
         }`}>
           <ScrollReveal yOffset={30} delay={0.1}>

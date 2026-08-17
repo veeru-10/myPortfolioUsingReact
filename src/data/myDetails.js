@@ -100,13 +100,31 @@ const iconItems = [
 
 const projectInfos = [
   {
+    title: "Blog Website",
+    disc: "A responsive, full-stack blogging platform built with the MERN stack (MongoDB, Express.js, React, Node.js). The application enables users to publish, edit, and explore community posts, while incorporating robust Role-Based Access Control (RBAC). Administrators have access to dedicated management tools to monitor platform activities, oversee user interactions, and manage content effectively.",
+    techs: ["React.png", "Tailwind CSS.png", "Node.js.png", "Express.png", "MongoDB.png", "Git.png"],
+    preview: "https://blog-website-frontend-green-chi.vercel.app/",
+    github: "https://github.com/veeru-10/blogWebsiteFrontend",
+    img: "/screenshots/blog.png",
+    alt: "ScreenShot of blg Project"
+  },
+  {
     title: "Foodiefix-React",
     disc: "Developed a production-ready food ordering web application using React.js and Tailwind CSS with a fully responsive UI for mobile, tablet, and desktop. Implemented advanced React features such as HOC, Context API (useContext), React Router, lifting state up, form handling, and smooth animations to create a scalable, native-app-like user experience.",
     techs: ["React.png", "Tailwind CSS.png", "Git.png"],
     preview: "https://foodie-fix.vercel.app/",
     github: "https://github.com/veeru-10/foodieFix",
     img: "/screenshots/foodieFix.png",
-    alt: "ScreenShot of the Project"
+    alt: "ScreenShot of foodie-fix Project"
+  },
+  {
+    title: "Student Management System - SSR",
+    disc: "A full-stack, server-side rendered (SSR) web application built using Node.js, Express.js, EJS, and MongoDB Atlas. Instead of relying on client-side rendering, the backend dynamically generates fully populated HTML templates in response to incoming HTTP requests. The project implements end-to-end CRUD operations handled directly on the server, demonstrating core SSR architectural principles, template engine mechanics, and seamless database integration.",
+    techs: ["Node.js.png", "Express.png", "ejs.png", "MongoDB.png", "Git.png"],
+    preview: "https://studentdatamanagement-ssr.onrender.com",
+    github: "https://github.com/veeru-10/studentDataManagement-SSR",
+    img: "/screenshots/ssr.png",
+    alt: "ScreenShot of SSR Project"
   },
   {
     title: "Foodiefix-JavaScript",
@@ -115,7 +133,7 @@ const projectInfos = [
     preview: "https://veeru-10.github.io/data-fetching-task/",
     github: "https://github.com/veeru-10/data-fetching-task",
     img: "/screenshots/foodieFixJs.png",
-    alt: "ScreenShot of the Project"
+    alt: "ScreenShot of foodieFix js Project"
   },
   {
     title: "ShopingStore-JavaScript",
@@ -163,6 +181,26 @@ const skills = [
       skill : "Tailwind CSS"
     },
     {
+      url : '/Node.js.png',
+      skill : "Node Js"
+    },
+    {
+      url : '/Express.png',
+      skill : "Express.js"
+    },
+    {
+      url : '/MongoDB.png',
+      skill : "MongoDB"
+    },
+    {
+      url : '/ejs.png',
+      skill : "ejs"
+    },
+    {
+      url : '/Git.png',
+      skill : "Git"
+    },
+    {
       url : '/Java.png',
       skill : "Java"
     },
@@ -170,10 +208,7 @@ const skills = [
       url : '/MySQL.png',
       skill : "MySQL"
     },
-    {
-      url : '/Git.png',
-      skill : "Git"
-    },
+    
   ]
 
 const strengths = ["WebDevelopment", "Knowledge Seeker", "MERN", "Problem Sloving", "CSE Student"]
